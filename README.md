@@ -26,5 +26,9 @@ git pull https://github.com/tildesarecool/crunchbangpp-configs.git
 
 And this is my package list so far:
 
-sudo apt install xorg openbox tint2 obconf xcompmgr synaptic lxterminal yad vim tmux git network-manager screen lxappearance nitrogen xterm nemo pluma nano lxpolkit rofi -y
+sudo apt install xorg openbox tint2 obconf xcompmgr synaptic lxterminal yad vim tmux git network-manager screen lxappearance nitrogen xterm nemo pluma nano lxpolkit rofi wireless-tools -y
+
+I'm also going to need to connect to wifi through command line. So I'll need to add that to the the package list. Hopefully the devices that don't have an ethernet port will be able to detect and utilize the wifi chipsets in 16.04.
+
+wireless-tools was installed without any difficulty i'm going to add it to the list
 
