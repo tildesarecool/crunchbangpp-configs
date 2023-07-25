@@ -13,8 +13,18 @@ I think 16.04 server actually does come with git so the steps could probably be 
 
 I assumed I would have to type this one thing in nothing else but perhaps not:
 
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install git -y && mkdir ~/repos && cd ~/repos
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install git -y && mkdir ~/repos && cd ~/repos && git clone https://github.com/tildesarecool/crunchbangpp-configs.git
 
 This at least I'm pretty sure I can't avoid typing in 
 
 git clone https://github.com/tildesarecool/crunchbangpp-configs.git
+
+for getting updates, it would be:
+
+git pull https://github.com/tildesarecool/crunchbangpp-configs.git
+
+
+And this is my package list so far:
+
+sudo apt install xorg openbox tint2 obconf xcompmgr synaptic lxterminal yad vim tmux git network-manager screen lxappearance nitrogen xterm nemo pluma nano lxpolkit rofi -y
+

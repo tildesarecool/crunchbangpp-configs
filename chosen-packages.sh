@@ -1,0 +1,1 @@
+sudo apt install xorg openbox tint2 obconf xcompmgr synaptic lxterminal yad vim tmux git network-manager screen lxappearance nitrogen xterm nemo pluma nano lxpolkit rofi -y
